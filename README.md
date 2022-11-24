@@ -21,8 +21,6 @@ ARIMA Model
 
 ARIMA (Autoregressive Integrated Moving Average) is a major tool used in time series analysis to attempt to forecast future values of a variable based on its present value. ARIMA(p,d,q) forecasting equation: ARIMA models are, in theory, the most general class of models for forecasting a time series which can be made to be “stationary” by differencing. ARIMA models are defined for stationary time series. Therefore, if you start off with a non-stationary time series, you will first need to ‘difference’ the time series until you obtain a stationary time series.  To difference the time series d times to obtain a stationary series, we use the diff() function. Then we will use the A formal ADF test does not reject the null hypothesis of non-stationarity, confirming our visual inspection: 
 
-## Prediction
-
 ## Summary
 
 In this section, we use the TESLA stock data as time series. We decompose it and use the HoltWinter exponential smoothing and ARIMA to forecast the future stock price. The basic procedures are as the following figure.
